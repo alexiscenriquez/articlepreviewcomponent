@@ -22,8 +22,5 @@ if(x.matches  && el.className=="share2"){
 
 <img src="images/icon-pinterest.svg" alt="" class="icons"></div>  <button id="share" class="share" onclick="toggleClass(this)"></button>`
 }
-else{
-
-//  bar.remove(button)
 */}
 }
