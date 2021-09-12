@@ -16,7 +16,7 @@ function toggleClass(el) {
   }
 if(x.matches  && el.className=="share2"){
 button.style.position="absolute";
-button.style.bottom="75px";
+button.style.bottom="15px";
 button.style.zIndex="1";
 button.style.right="25px";
 person.style.visibility="hidden"

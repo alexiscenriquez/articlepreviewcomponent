@@ -115,11 +115,7 @@ visibility: hidden;
   #profile {
     margin-top: 30px;
   }
-#profile-wrapper{
-    margin-bottom: 0;
-   
-    padding-bottom: 0;
-}
+
   #drawers {
     background-size: cover;
     height: 200px;
@@ -128,6 +124,7 @@ visibility: hidden;
   }
 
   #wrapper {
+     
     border-radius: 10px;
     flex-direction: column;
  margin-bottom: 0px;
@@ -136,14 +133,14 @@ visibility: hidden;
 
   #bar {
   
- position: relative;
+ position: absolute;
     justify-content: flex-start;
     margin-bottom: 0;
     left: 0;
     height: 50px;
     border-radius: 0;
 max-width: 100%;
-   bottom:60px;
+ bottom:0;
   }
 
   #inner-bar{
