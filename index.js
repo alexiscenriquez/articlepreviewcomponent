@@ -15,12 +15,15 @@ function toggleClass(el) {
    
   }
 if(x.matches  && el.className=="share2"){
-
-/*profile.innerHTML= `
-<div id="inner-bar"><img class="icons" src="images/icon-facebook.svg" alt="">
-  <img src="images/icon-twitter.svg" alt="" class="icons">
-
-<img src="images/icon-pinterest.svg" alt="" class="icons"></div>  <button id="share" class="share" onclick="toggleClass(this)"></button>`
+button.style.position="absolute";
+button.style.bottom="5px";
+button.style.right="10px";
+person.style.visibility="hidden"
+//button.style.width="100%";
 }
-*/}
+else{
+  person.style.visibility="visible"
+  button.style.position="unset"
+}
+
 }
